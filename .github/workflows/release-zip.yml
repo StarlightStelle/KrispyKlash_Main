@@ -8,17 +8,17 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-name: Create zip
+      - name: Create zip
         run: |
-          zip -r latest.zip ./*
-
-name: Create / update release
+          zip -r kk_hmain.zip ./*
+      
+      - name: Create / update release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: latest
+          tag_name: KK_Packs
           name: Latest
-          files: latest.zip
+          files: kk_hmain.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
