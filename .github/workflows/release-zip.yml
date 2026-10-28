@@ -19,6 +19,6 @@ name: Create / update release
         with:
           tag_name: latest
           name: Latest
-          files: project.zip
+          files: latest.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
