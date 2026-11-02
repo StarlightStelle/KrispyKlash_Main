@@ -26644,6 +26644,15 @@
             "ascent": 8,
             "type": "bitmap"
         },
+	{
+            "file": "custom:font/icons/house.png",
+            "chars": [
+                "⑩"
+            ],
+            "height": 8,
+            "ascent": 8,
+            "type": "bitmap"
+        },
         {
             "file": "custom:font/icons/skybattle.png",
             "chars": [

@@ -18,7 +18,7 @@
                 "threshold": 2,
                 "model": {
                     "type": "model",
-                    "model": "minecraft:item/witch_hat"
+                    "model": "minecraft:item/hat"
                 }
             },
             {

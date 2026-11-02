@@ -90,6 +90,20 @@
                     "type": "model",
                     "model": "custom:halloween/cosmetic/lock"
                 }
+            },
+	    {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "custom:halloween/cosmetic/bucket"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "custom:bmcc_interface/cancel"
+                }
             }
         ]
     }

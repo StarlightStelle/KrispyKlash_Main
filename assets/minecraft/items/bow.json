@@ -599,7 +599,7 @@
                     "property": "minecraft:using_item",
                     "on_false": {
                         "type": "minecraft:model",
-                        "model": "item/aqua_axolotls/bow"
+                        "model": "item/witchbolt/bow"
                     },
                     "on_true": {
                         "type": "minecraft:range_dispatch",
@@ -607,42 +607,28 @@
                         "scale": 0.05,
                         "fallback": {
                             "type": "minecraft:model",
-                            "model": "item/aqua_axolotls/bow"
+                            "model": "item/witchbolt/bow"
                         },
                         "entries": [
                             {
                                 "threshold": 0.0,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/aqua_axolotls/bow_pulling_0"
+                                    "model": "item/witchbolt/bow_pullling_0"
                                 }
                             },
                             {
-                                "threshold": 0.2,
+                                "threshold": 0.65,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/aqua_axolotls/bow_pulling_1"
+                                    "model": "item/witchbolt/bow_pullling_1"
                                 }
                             },
                             {
-                                "threshold": 0.4,
+                                "threshold": 0.9,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/aqua_axolotls/bow_pulling_2"
-                                }
-                            },
-                            {
-                                "threshold": 0.6,
-                                "model": {
-                                    "type": "minecraft:model",
-                                    "model": "item/aqua_axolotls/bow_pulling_3"
-                                }
-                            },
-                            {
-                                "threshold": 0.8,
-                                "model": {
-                                    "type": "minecraft:model",
-                                    "model": "item/aqua_axolotls/bow_pulling_4"
+                                    "model": "item/witchbolt/bow_pullling_2"
                                 }
                             }
                         ]

@@ -843,7 +843,7 @@
         },
         {
             "type": "single",
-            "resource": "mcc:textures/island_cosmetics/faction/hat/features/head_faction_features"
+            "resource": "mcc:island_cosmetics/faction/hat/features/head_faction_features"
         },
         {
             "type": "single",
