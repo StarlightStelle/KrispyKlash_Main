@@ -80,7 +80,7 @@
     {
       "type": "bitmap",
       "file": "custom:font/bossbar/dodgebolt_bot.png",
-      "ascent": 7,
+      "ascent": 11,
       "height": 14,
       "chars": ["\uE00A"]
     },
